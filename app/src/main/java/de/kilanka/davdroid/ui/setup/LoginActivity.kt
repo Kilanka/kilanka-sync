@@ -29,7 +29,7 @@ class LoginActivity: AppCompatActivity() {
          * When not set, "login by email" will be activated by default.
          */
         @JvmField
-        val EXTRA_URL = "url"
+        val EXTRA_TENANT = "url"
 
         /**
          * When set, and {@link #EXTRA_PASSWORD} is set too, the user name field will be set to this value.

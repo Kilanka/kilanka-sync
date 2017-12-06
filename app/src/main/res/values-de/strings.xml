@@ -115,8 +115,9 @@
   <!--AddAccountActivity-->
   <string name="login_title">Konto hinzufügen</string>
   <string name="login_type_email">Mit Email-Adresse anmelden</string>
-  <string name="login_email_address">Email-Adresse</string>
-  <string name="login_email_address_error">Gültige Email-Adresse benötigt</string>
+
+  <string name="login_tenant_name">Firma</string>
+  <string name="login_tenant_name_required">Gültiger Firmenname benötigt</string>
   <string name="login_password">Passwort</string>
   <string name="login_password_required">Passwort wird benötigt</string>
   <string name="login_type_url">Mit URL und Benutzername anmelden</string>

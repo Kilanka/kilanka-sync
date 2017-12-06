@@ -39,7 +39,5 @@ data class LoginCredentials(
 
             override fun newArray(size: Int) = arrayOfNulls<LoginCredentials>(size)
         }
-
     }
-
 }
