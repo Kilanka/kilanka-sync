@@ -137,20 +137,8 @@ class AccountsActivity: AppCompatActivity(), NavigationView.OnNavigationItemSele
                 startActivity(Intent(this, AboutActivity::class.java))
             R.id.nav_app_settings ->
                 startActivity(Intent(this, AppSettingsActivity::class.java))
-            R.id.nav_beta_feedback ->
-                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.beta_feedback_url))))
-            R.id.nav_twitter ->
-                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/davdroidapp")))
             R.id.nav_website ->
                 startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.homepage_url))))
-            R.id.nav_faq ->
-                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.navigation_drawer_faq_url))))
-            R.id.nav_forums ->
-                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.homepage_url))
-                        .buildUpon().appendEncodedPath("forums/").build()))
-            R.id.nav_donate ->
-                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.homepage_url))
-                        .buildUpon().appendEncodedPath("donate/").build()))
             else ->
                 processed = false
         }
