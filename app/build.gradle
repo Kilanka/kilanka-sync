@@ -16,7 +16,7 @@ android {
     buildToolsVersion '27.0.1'
 
     defaultConfig {
-        applicationId "at.bitfire.davdroid"
+        applicationId "de.kilanka.davdroid"
 
         versionCode 194
         buildConfigField "long", "buildTime", System.currentTimeMillis() + "L"

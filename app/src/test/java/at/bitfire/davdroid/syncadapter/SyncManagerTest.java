@@ -6,7 +6,7 @@
  * http://www.gnu.org/licenses/gpl.html
  */
 
-package at.bitfire.davdroid.syncadapter;
+package de.kilanka.davdroid.syncadapter;
 
 import org.junit.Test;
 

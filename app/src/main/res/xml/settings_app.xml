@@ -32,7 +32,7 @@
             android:title="@string/app_settings_override_proxy_host"
             android:inputType="textUri"/>
 
-        <at.bitfire.davdroid.ui.widget.IntEditTextPreference
+        <de.kilanka.davdroid.ui.widget.IntEditTextPreference
             android:key="override_proxy_port"
             android:dependency="override_proxy"
             android:title="@string/app_settings_override_proxy_port"
@@ -67,8 +67,8 @@
             android:title="@string/app_settings_show_debug_info"
             android:summary="@string/app_settings_show_debug_info_details">
             <intent
-                android:targetPackage="at.bitfire.davdroid"
-                android:targetClass="at.bitfire.davdroid.ui.DebugInfoActivity"/>
+                android:targetPackage="de.kilanka.davdroid"
+                android:targetClass="de.kilanka.davdroid.ui.DebugInfoActivity"/>
         </Preference>
 
     </PreferenceCategory>

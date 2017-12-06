@@ -6,7 +6,7 @@
  * http://www.gnu.org/licenses/gpl.html
  */
 
-package at.bitfire.davdroid.ui.setup;
+package de.kilanka.davdroid.ui.setup;
 
 import org.junit.After;
 import org.junit.Before;
@@ -20,9 +20,9 @@ import at.bitfire.dav4android.exception.DavException;
 import at.bitfire.dav4android.exception.HttpException;
 import at.bitfire.dav4android.property.AddressbookHomeSet;
 import at.bitfire.dav4android.property.ResourceType;
-import at.bitfire.davdroid.HttpClient;
-import at.bitfire.davdroid.log.Logger;
-import at.bitfire.davdroid.ui.setup.DavResourceFinder.Configuration.ServiceInfo;
+import de.kilanka.davdroid.HttpClient;
+import de.kilanka.davdroid.log.Logger;
+import de.kilanka.davdroid.ui.setup.DavResourceFinder.Configuration.ServiceInfo;
 import okhttp3.mockwebserver.Dispatcher;
 import okhttp3.mockwebserver.MockResponse;
 import okhttp3.mockwebserver.MockWebServer;

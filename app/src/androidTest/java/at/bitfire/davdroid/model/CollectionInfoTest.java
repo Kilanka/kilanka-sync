@@ -6,7 +6,7 @@
  * http://www.gnu.org/licenses/gpl.html
  */
 
-package at.bitfire.davdroid.model;
+package de.kilanka.davdroid.model;
 
 import android.content.ContentValues;
 
@@ -20,8 +20,8 @@ import at.bitfire.dav4android.DavResource;
 import at.bitfire.dav4android.exception.DavException;
 import at.bitfire.dav4android.exception.HttpException;
 import at.bitfire.dav4android.property.ResourceType;
-import at.bitfire.davdroid.HttpClient;
-import at.bitfire.davdroid.model.ServiceDB.Collections;
+import de.kilanka.davdroid.HttpClient;
+import de.kilanka.davdroid.model.ServiceDB.Collections;
 import okhttp3.mockwebserver.MockResponse;
 import okhttp3.mockwebserver.MockWebServer;
 

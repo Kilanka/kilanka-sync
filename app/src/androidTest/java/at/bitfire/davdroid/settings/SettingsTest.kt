@@ -6,12 +6,12 @@
  * http://www.gnu.org/licenses/gpl.html
  */
 
-package at.bitfire.davdroid.settings
+package de.kilanka.davdroid.settings
 
 import android.content.ServiceConnection
 import android.support.test.InstrumentationRegistry
 import android.support.test.InstrumentationRegistry.getTargetContext
-import at.bitfire.davdroid.App
+import de.kilanka.davdroid.App
 import junit.framework.Assert.*
 import org.junit.After
 import org.junit.Before

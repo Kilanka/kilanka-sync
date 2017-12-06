@@ -6,9 +6,9 @@
  * http://www.gnu.org/licenses/gpl.html
  */
 
-package at.bitfire.davdroid.settings
+package de.kilanka.davdroid.settings
 
-import at.bitfire.davdroid.App
+import de.kilanka.davdroid.App
 import junit.framework.Assert.assertEquals
 import junit.framework.Assert.assertFalse
 import org.junit.Test

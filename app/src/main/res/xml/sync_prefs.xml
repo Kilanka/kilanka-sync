@@ -8,11 +8,11 @@
   -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
-    
+
     <PreferenceScreen android:title="@string/manage_accounts">
         <intent
-            android:targetPackage="at.bitfire.davdroid"
-            android:targetClass="at.bitfire.davdroid.ui.AccountsActivity"
+            android:targetPackage="de.kilanka.davdroid"
+            android:targetClass="de.kilanka.davdroid.ui.AccountsActivity"
             android:action="ACTION_VIEW" />
     </PreferenceScreen>
 

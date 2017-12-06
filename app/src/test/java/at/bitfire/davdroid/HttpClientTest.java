@@ -6,7 +6,7 @@
  * http://www.gnu.org/licenses/gpl.html
  */
 
-package at.bitfire.davdroid;
+package de.kilanka.davdroid;
 
 import org.junit.After;
 import org.junit.Before;
