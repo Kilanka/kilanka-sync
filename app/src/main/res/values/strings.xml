@@ -21,6 +21,7 @@
     <string name="please_wait">Please wait …</string>
     <string name="send">Send</string>
     <string name="homepage_url">https://www.kilanka.de/</string>
+    <string name="davdroid_url">https://www.davdroid.com/</string>
     <string name="beta_feedback_url">https://forums.bitfire.at/category/9/beta-test-discussion?pk_campaign=davdroid-app</string>
 
     <string name="notification_channel_debugging">Debugging</string>
