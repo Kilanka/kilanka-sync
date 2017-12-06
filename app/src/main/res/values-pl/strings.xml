@@ -1,44 +1,44 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:tools="http://schemas.android.com/tools">
   <!--common strings-->
-  <string name="app_name">DAVdroid</string>
-  <string name="account_title_address_book">Książka adresowa DAVdroid</string>
+  <string name="app_name">Kilanka-Sync</string>
+  <string name="account_title_address_book">Książka adresowa Kilanka</string>
   <string name="address_books_authority_title">Książka adresowa</string>
   <string name="help">Pomoc</string>
   <string name="manage_accounts">Zadządzaj kontami</string>
   <string name="please_wait">Proszę czekać</string>
   <string name="send">Wyślij</string>
-  <string name="homepage_url">https://www.davdroid.com/?pk_campaign=davdroid-app</string>
+  <string name="homepage_url">https://www.kilanka.de/</string>
   <string name="beta_feedback_url">https://forums.bitfire.at/category/9/beta-test-discussion?pk_campaign=davdroid-app</string>
   <!--startup dialogs-->
   <string name="startup_battery_optimization">Optymalizacja baterii</string>
-  <string name="startup_battery_optimization_message">Android może wyłączyć/zmniejszyć synchronizacje DAVdroid po kilku dniach. Aby temu zapobiec należy wyłączyć optymalizację baterii.</string>
-  <string name="startup_battery_optimization_disable">Wyłącz dla DAVdroid</string>
+  <string name="startup_battery_optimization_message">Android może wyłączyć/zmniejszyć synchronizacje Kilanka po kilku dniach. Aby temu zapobiec należy wyłączyć optymalizację baterii.</string>
+  <string name="startup_battery_optimization_disable">Wyłącz dla Kilanka</string>
   <string name="startup_dont_show_again">Nie pokazuj ponownie</string>
   <string name="startup_donate">Informacje Open-Source</string>
-  <string name="startup_donate_message">Jesteśmy szczęśliwi, że używasz DAVdroid, który jest oprogramowaniem open-source (GPLv3). Ponieważ rozwijanie DAVdroid jest ciężką pracą i zajęło nam tysiące godzin pracy, prosimy o rozważenie darowizny.</string>
+  <string name="startup_donate_message">Jesteśmy szczęśliwi, że używasz Kilanka, który jest oprogramowaniem open-source (GPLv3). Ponieważ rozwijanie Kilanka jest ciężką pracą i zajęło nam tysiące godzin pracy, prosimy o rozważenie darowizny.</string>
   <string name="startup_donate_now">Pokaż stronę darowizny</string>
   <string name="startup_donate_later">Może później</string>
   <string name="startup_google_play_accounts_removed">Informacje o błędzie DRM Sklepu Play</string>
-  <string name="startup_google_play_accounts_removed_message">Pod pewnymi warunkami, DRM Sklepu Play może powodować, że wszystkie konta DAVdroid mogą zostać usunięte po uruchomieniu lub po uaktualnieniu DAVdroid. Jeśli jesteś dotknięty tym problemem (i tylko wtedy) należy zainstalować \"DAVdroid JB Obejście\" ze Sklepu Play.</string>
+  <string name="startup_google_play_accounts_removed_message">Pod pewnymi warunkami, DRM Sklepu Play może powodować, że wszystkie konta Kilanka mogą zostać usunięte po uruchomieniu lub po uaktualnieniu Kilanka. Jeśli jesteś dotknięty tym problemem (i tylko wtedy) należy zainstalować \"Kilanka JB Obejście\" ze Sklepu Play.</string>
   <string name="startup_google_play_accounts_removed_more_info">Więcej informacji</string>
   <string name="startup_opentasks_not_installed">OpenTasks nie jest zainstalowany</string>
-  <string name="startup_opentasks_not_installed_message">Aplikacja Open Tasks nie jest dostępna, więc DAVdroid nie będzie mógł synchronizować listy zadań. </string>
-  <string name="startup_opentasks_reinstall_davdroid">Po zainstalowaniu OpenTasks konieczne jest PRZEINSTALOWANIE DAVdroid i ponowne dodanie twoich kont (błąd Androida).</string>
+  <string name="startup_opentasks_not_installed_message">Aplikacja Open Tasks nie jest dostępna, więc Kilanka nie będzie mógł synchronizować listy zadań. </string>
+  <string name="startup_opentasks_reinstall_davdroid">Po zainstalowaniu OpenTasks konieczne jest PRZEINSTALOWANIE Kilanka i ponowne dodanie twoich kont (błąd Androida).</string>
   <string name="startup_opentasks_not_installed_install">Zainstaluj OpenTasks</string>
   <!--AboutActivity-->
   <string name="about_license_terms">Warunki licencji</string>
   <string name="about_license_info_no_warranty">Ten program jest ABSOLUTNIE BEZ GWARANCJI. To jest wolne oprogramowanie i mile widziane jest dalsze rozpowszechnianie go pod pewnymi warunkami.</string>
   <!--global settings-->
-  <string name="logging_davdroid_file_logging">Plik logów DAVdroid</string>
+  <string name="logging_davdroid_file_logging">Plik logów Kilanka</string>
   <string name="logging_to_external_storage">Logowanie do zewnątrznej pamięci: %s</string>
   <string name="logging_couldnt_create_file">Nie można stworzyć zewnętrznego pliku logów: %s</string>
   <string name="logging_no_external_storage">Zewnętrzna pamięci nie została naleziona</string>
   <!--AccountsActivity-->
   <string name="navigation_drawer_open">Otwórz menu nawigacji</string>
   <string name="navigation_drawer_close">Zamknij menu nawigacji</string>
-  <string name="navigation_drawer_subtitle">Adapter synchronizacji CalDAV/CardDAV</string>
-  <string name="navigation_drawer_about">O DAVdroid / Licencja</string>
+  <string name="navigation_drawer_subtitle">Adapter synchronizacji Kilanka</string>
+  <string name="navigation_drawer_about">O Kilanka / Licencja</string>
   <string name="navigation_drawer_beta_feedback">Przekaż opinię</string>
   <string name="navigation_drawer_settings">Ustawienia</string>
   <string name="navigation_drawer_news_updates">Nowości &amp; aktualizacje</string>
@@ -48,7 +48,7 @@
   <string name="navigation_drawer_faq_url">https://www.davdroid.com/faq/?pk_campaign=davdroid-app</string>
   <string name="navigation_drawer_forums">Pomoc / Forum</string>
   <string name="navigation_drawer_donate">Dotacja</string>
-  <string name="account_list_empty">Witamy w DAVdroid!\n\nMożesz teraz dodać konto CalDAV/CardDAV.</string>
+  <string name="account_list_empty">Witamy w Kilanka!\n\nMożesz teraz dodać konto CalDAV/CardDAV.</string>
   <string name="accounts_global_sync_disabled">Automatyczna synchronizacja dla całego systemu jest wyłączona</string>
   <string name="accounts_global_sync_enable">Włącz</string>
   <!--DavService-->
@@ -104,15 +104,15 @@
   <string name="account_install_icsdroid">Zainstaluj ICSdroid</string>
   <string name="account_read_only_address_book_selected">Książka adresowa tylko do odczytu - lokalne zmiany zostaną odrzucone</string>
   <!--PermissionsActivity-->
-  <string name="permissions_title">Uprawnienia DAVdroid</string>
+  <string name="permissions_title">Uprawnienia Kilanka</string>
   <string name="permissions_calendar">Uprawnienia kalendarza</string>
-  <string name="permissions_calendar_details">Aby synchronizować wydarzenia CalDav z lokalnymi kalendarzami, DAVdroid potrzebuje dostępu do twoich kalendarzy.</string>
+  <string name="permissions_calendar_details">Aby synchronizować wydarzenia CalDav z lokalnymi kalendarzami, Kilanka potrzebuje dostępu do twoich kalendarzy.</string>
   <string name="permissions_calendar_request">Zezwól na uprawnienia kalendarza</string>
   <string name="permissions_contacts">Uprawnienia kontaktów</string>
-  <string name="permissions_contacts_details">Aby synchronizować książki adresowe CardDAV z lokalnymi kontaktami, DAVdroid potrzebuje dostępu do twoich kontaktów.</string>
+  <string name="permissions_contacts_details">Aby synchronizować książki adresowe CardDAV z lokalnymi kontaktami, Kilanka potrzebuje dostępu do twoich kontaktów.</string>
   <string name="permissions_contacts_request">Zezwól na uprawnienia kontaktów</string>
   <string name="permissions_opentasks">Uprawnienia OpenTasks</string>
-  <string name="permissions_opentasks_details">Aby synchronizować zadania CalDav z lokalnymi listami zadań, DAVdroid potrzebuje dostępu do OpenTasks.</string>
+  <string name="permissions_opentasks_details">Aby synchronizować zadania CalDav z lokalnymi listami zadań, Kilanka potrzebuje dostępu do OpenTasks.</string>
   <string name="permissions_opentasks_request">Zezwól na uprawnienia OpenTasks</string>
   <!--AddAccountActivity-->
   <string name="login_help_url">https://www.davdroid.com/tested-with/?pk_campaign=davdroid-app</string>
@@ -189,8 +189,8 @@
   </plurals>
   <string name="settings_sync_time_range_past_message">Wydarzenia, które są starsze niż podana liczba dni zostaną zignorowane (może być 0). Zostaw puste, aby synchronizować wszystkie wydarzenia.</string>
   <string name="settings_manage_calendar_colors">Zarządzaj kolorami kalendarza</string>
-  <string name="settings_manage_calendar_colors_on">Kolory kalendarza są zarządzane przez DAVdroid</string>
-  <string name="settings_manage_calendar_colors_off">Kolory kalendarze nie są ustawiane przez DAVdroid</string>
+  <string name="settings_manage_calendar_colors_on">Kolory kalendarza są zarządzane przez Kilanka</string>
+  <string name="settings_manage_calendar_colors_off">Kolory kalendarze nie są ustawiane przez Kilanka</string>
   <string name="settings_event_colors">Obsługa kolorów wydarzeń</string>
   <string name="settings_event_colors_on">Synchronizuj kolory zdarzeń</string>
   <string name="settings_event_colors_off">Nie synchronizuj kolorów zdarzeń</string>
@@ -231,7 +231,7 @@
     <item quantity="many">%d lokalne kontakty zostaną odrzucone</item>
     <item quantity="other">%d lokalne kontakty zostaną odrzucone</item>
   </plurals>
-  <string name="sync_error_permissions">Uprawnienia DAVdroid</string>
+  <string name="sync_error_permissions">Uprawnienia Kilanka</string>
   <string name="sync_error_permissions_text">Wymagane dodatkowe uprawnienia</string>
   <string name="sync_error_calendar">Synchronizacja kalendarza nie powiodła się (%s)</string>
   <string name="sync_error_contacts">Synchronizacja książki adresowej nie powiodła się (%s)</string>
@@ -255,6 +255,6 @@
   </string-array>
   <string name="sync_error_unauthorized">Błędna nazwa użytkownika lub hasło</string>
   <!--cert4android-->
-  <string name="certificate_notification_connection_security">DAVdroid: Bezpieczeństwo połączenia</string>
-  <string name="trust_certificate_unknown_certificate_found">DAVdroid napotkał nieznany certyfikat. Czy chcesz go dodać?</string>
+  <string name="certificate_notification_connection_security">Kilanka: Bezpieczeństwo połączenia</string>
+  <string name="trust_certificate_unknown_certificate_found">Kilanka napotkał nieznany certyfikat. Czy chcesz go dodać?</string>
 </resources>

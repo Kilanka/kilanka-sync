@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:tools="http://schemas.android.com/tools">
   <!--common strings-->
-  <string name="app_name">DAVdroid</string>
-  <string name="account_title_address_book">Livro de endereços DAVdroid</string>
+  <string name="app_name">Kilanka-Sync</string>
+  <string name="account_title_address_book">Livro de endereços Kilanka</string>
   <string name="address_books_authority_title">Livros de endereços</string>
   <string name="help">Ajuda</string>
   <string name="manage_accounts">Gerenciar contas</string>
@@ -10,32 +10,32 @@
   <string name="send">Enviar</string>
   <!--startup dialogs-->
   <string name="startup_battery_optimization">Otimização da bateria</string>
-  <string name="startup_battery_optimization_message">O Android pode desativar/reduzir a sincronização do DAVdroid depois de alguns dias. Para evitar isso, desligue a otimização da bateria.</string>
-  <string name="startup_battery_optimization_disable">Desligar para o DAVdroid</string>
+  <string name="startup_battery_optimization_message">O Android pode desativar/reduzir a sincronização do Kilanka depois de alguns dias. Para evitar isso, desligue a otimização da bateria.</string>
+  <string name="startup_battery_optimization_disable">Desligar para o Kilanka</string>
   <string name="startup_dont_show_again">Não mostrar novamente</string>
   <string name="startup_donate">Informação sobre Código Aberto</string>
-  <string name="startup_donate_message">Estamos felizes que você usa o DAVdroid, um software de código aberto (GPLv3). O desenvolvimento do DAVdroid é trabalhoso e consome muitas horas de trabalho. Por esse motivo, considere fazer uma doação.</string>
+  <string name="startup_donate_message">Estamos felizes que você usa o Kilanka, um software de código aberto (GPLv3). O desenvolvimento do Kilanka é trabalhoso e consome muitas horas de trabalho. Por esse motivo, considere fazer uma doação.</string>
   <string name="startup_donate_now">Mostrar a página de doações</string>
   <string name="startup_donate_later">Talvez depois</string>
   <string name="startup_google_play_accounts_removed">Informação sobre o erro de DRM da Play Store</string>
-  <string name="startup_google_play_accounts_removed_message">Sob certas condições, o DRM da Play Store pode fazer com que todas as contas DAVdroid sejam perdidas depois de uma reinicialização ou atualização do DAVdroid. Se você for afetado por esse problema, instale o \"DAVdroid JB Workaround\" a partir da Play Store.</string>
+  <string name="startup_google_play_accounts_removed_message">Sob certas condições, o DRM da Play Store pode fazer com que todas as contas Kilanka sejam perdidas depois de uma reinicialização ou atualização do Kilanka. Se você for afetado por esse problema, instale o \"Kilanka JB Workaround\" a partir da Play Store.</string>
   <string name="startup_google_play_accounts_removed_more_info">Mais informações</string>
   <string name="startup_opentasks_not_installed">O OpenTasks não está instalado</string>
-  <string name="startup_opentasks_not_installed_message">O aplicativo OpenTasks não está disponível, não sendo possível sincronizar as listas de tarefas pelo DAVdroid.</string>
-  <string name="startup_opentasks_reinstall_davdroid">Depois da instalação do OpenTasks, torna-se necessário REINSTALAR o DAVdroid e adicionar suas contas novamente (erro do Android).</string>
+  <string name="startup_opentasks_not_installed_message">O aplicativo OpenTasks não está disponível, não sendo possível sincronizar as listas de tarefas pelo Kilanka.</string>
+  <string name="startup_opentasks_reinstall_davdroid">Depois da instalação do OpenTasks, torna-se necessário REINSTALAR o Kilanka e adicionar suas contas novamente (erro do Android).</string>
   <string name="startup_opentasks_not_installed_install">Instalar o OpenTasks</string>
   <!--AboutActivity-->
   <string name="about_license_terms">Termos da Licença</string>
   <string name="about_license_info_no_warranty">Este programa é distribuído SEM NENHUMA GARANTIA. Ele é software livre e pode ser redistribuído sob algumas condições.</string>
   <!--global settings-->
-  <string name="logging_davdroid_file_logging">Registro do arquivo do DAVdroid</string>
+  <string name="logging_davdroid_file_logging">Registro do arquivo do Kilanka</string>
   <string name="logging_to_external_storage">Registrando no arquivo externo: %s</string>
   <string name="logging_couldnt_create_file">Não foi possível criar o arquivo de registro externo: %s</string>
   <string name="logging_no_external_storage">Armazenamento externo não encontrado</string>
   <!--AccountsActivity-->
   <string name="navigation_drawer_open">Abrir a gaveta de navegação</string>
   <string name="navigation_drawer_close">Fechar gaveta de navegação</string>
-  <string name="navigation_drawer_subtitle">Sincronização de CalDAV/CardDAV</string>
+  <string name="navigation_drawer_subtitle">Sincronização de Kilanka</string>
   <string name="navigation_drawer_about">Sobre / Licença</string>
   <string name="navigation_drawer_beta_feedback">Comentários sobre a versão beta</string>
   <string name="navigation_drawer_settings">Configurações</string>
@@ -45,7 +45,7 @@
   <string name="navigation_drawer_faq">Perguntas fequentes</string>
   <string name="navigation_drawer_forums">Ajuda / Fóruns</string>
   <string name="navigation_drawer_donate">Doações</string>
-  <string name="account_list_empty">Bem-vindo ao DAVdroid!\n\nVocê pode adicionar uma conta CalDAV/CardDAV agora.</string>
+  <string name="account_list_empty">Bem-vindo ao Kilanka!\n\nVocê pode adicionar uma conta CalDAV/CardDAV agora.</string>
   <string name="accounts_global_sync_disabled">A sincronização automática pelo sistema está desativada</string>
   <string name="accounts_global_sync_enable">Ativar</string>
   <!--DavService-->
@@ -101,15 +101,15 @@
   <string name="account_install_icsdroid">Instalar ICSdroid</string>
   <string name="account_read_only_address_book_selected">Livro de endereços somente leitura – as alterações locais serão descartadas!</string>
   <!--PermissionsActivity-->
-  <string name="permissions_title">Permissões do DAVdroid</string>
+  <string name="permissions_title">Permissões do Kilanka</string>
   <string name="permissions_calendar">Permissões do calendário</string>
-  <string name="permissions_calendar_details">Para sincronizar os eventos CalDAV com seus calendários locais, o DAVdroid precisa acessar seus calendários.</string>
+  <string name="permissions_calendar_details">Para sincronizar os eventos CalDAV com seus calendários locais, o Kilanka precisa acessar seus calendários.</string>
   <string name="permissions_calendar_request">Solicitar permissão do calendário</string>
   <string name="permissions_contacts">Permissões dos contados</string>
-  <string name="permissions_contacts_details">Para sincronizar livros de endereços CardDAV com seus contatos locais, o DAVdroid precisa acessar seus contatos.</string>
+  <string name="permissions_contacts_details">Para sincronizar livros de endereços CardDAV com seus contatos locais, o Kilanka precisa acessar seus contatos.</string>
   <string name="permissions_contacts_request">Solicitar permissão dos contatos</string>
   <string name="permissions_opentasks">Permissões do OpenTasks</string>
-  <string name="permissions_opentasks_details">Para sincronizar tarefas CalDAV com suas listas de tarefas locais, o DAVdroid precisa acessar o OpenTasks.</string>
+  <string name="permissions_opentasks_details">Para sincronizar tarefas CalDAV com suas listas de tarefas locais, o Kilanka precisa acessar o OpenTasks.</string>
   <string name="permissions_opentasks_request">Solicitar permissão do OpenTasks</string>
   <!--AddAccountActivity-->
   <string name="login_title">Adicionar conta</string>
@@ -187,8 +187,8 @@
   </plurals>
   <string name="settings_sync_time_range_past_message">Os eventos que ocorreram antes desse número de dias serão ignorados (pode ser 0). Deixe em branco para sincronizar todos os eventos.</string>
   <string name="settings_manage_calendar_colors">Gerenciar cores dos calendários</string>
-  <string name="settings_manage_calendar_colors_on">Cores dos calendários definidas pelo DAVdroid</string>
-  <string name="settings_manage_calendar_colors_off">Cores dos calendários não definidas pelo DAVdroid</string>
+  <string name="settings_manage_calendar_colors_on">Cores dos calendários definidas pelo Kilanka</string>
+  <string name="settings_manage_calendar_colors_off">Cores dos calendários não definidas pelo Kilanka</string>
   <string name="settings_event_colors">Suporte para cor de evento</string>
   <string name="settings_event_colors_on">Sincronizar cores de eventos</string>
   <string name="settings_event_colors_off">Não sincronizar cores de eventos</string>
@@ -227,7 +227,7 @@
     <item quantity="one">Alteração local de contato descartada</item>
     <item quantity="other">%d alterações locais de contatos descartadas</item>
   </plurals>
-  <string name="sync_error_permissions">Permissões do DAVdroid</string>
+  <string name="sync_error_permissions">Permissões do Kilanka</string>
   <string name="sync_error_permissions_text">É necessário permissões adicionais</string>
   <string name="sync_error_calendar">Falha na sincronização do calendário (%s)</string>
   <string name="sync_error_contacts">Falha na sincronização do livro de endereços (%s)</string>
@@ -251,6 +251,6 @@
   </string-array>
   <string name="sync_error_unauthorized">Usuário/senha incorreto</string>
   <!--cert4android-->
-  <string name="certificate_notification_connection_security">DAVdroid: Segurança da conexão</string>
-  <string name="trust_certificate_unknown_certificate_found">O DAVdroid encontrou um certificado desconhecido. Deseja torná-lo confiável?</string>
+  <string name="certificate_notification_connection_security">Kilanka: Segurança da conexão</string>
+  <string name="trust_certificate_unknown_certificate_found">O Kilanka encontrou um certificado desconhecido. Deseja torná-lo confiável?</string>
 </resources>

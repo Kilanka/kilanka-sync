@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:tools="http://schemas.android.com/tools">
   <!--common strings-->
-  <string name="app_name">DAVdroid</string>
-  <string name="account_title_address_book">DAVdroid címjegyzék</string>
+  <string name="app_name">Kilanka-Sync</string>
+  <string name="account_title_address_book">Kilanka címjegyzék</string>
   <string name="address_books_authority_title">Címjegyzékek</string>
   <string name="help">Súgó</string>
   <string name="manage_accounts">Fiókok kezelése</string>
@@ -10,32 +10,32 @@
   <string name="send">Küldés</string>
   <!--startup dialogs-->
   <string name="startup_battery_optimization">Akkumulátoroptimalizálás </string>
-  <string name="startup_battery_optimization_message">Az operációs rendszer a DAVdroid szinkronizálást pár nap után leállíthatja vagy visszafoghatja.  Ennek elkerülésére kapcsolja ki az akkumulátoroptimalizálást.</string>
-  <string name="startup_battery_optimization_disable">Kikapcsolás a DAVdroid kapcsán</string>
+  <string name="startup_battery_optimization_message">Az operációs rendszer a Kilanka szinkronizálást pár nap után leállíthatja vagy visszafoghatja.  Ennek elkerülésére kapcsolja ki az akkumulátoroptimalizálást.</string>
+  <string name="startup_battery_optimization_disable">Kikapcsolás a Kilanka kapcsán</string>
   <string name="startup_dont_show_again">Ne jelenjen meg többet</string>
   <string name="startup_donate">A forrás nyíltságával kapcsolatos információk</string>
-  <string name="startup_donate_message">Örülünk, hogy használja a DAVdroidot.  A DAVdroid nyílt forráskódú (GPLv3) szoftver, de a fejlesztése kemény munkát jelent, már eddig több ezer munkaórát emésztett fel, ezért kérjük, fontolja meg, hogy támogassa munkánkat.</string>
+  <string name="startup_donate_message">Örülünk, hogy használja a Kilankaot.  A Kilanka nyílt forráskódú (GPLv3) szoftver, de a fejlesztése kemény munkát jelent, már eddig több ezer munkaórát emésztett fel, ezért kérjük, fontolja meg, hogy támogassa munkánkat.</string>
   <string name="startup_donate_now">Támogatás küldése</string>
   <string name="startup_donate_later">Talán később</string>
   <string name="startup_google_play_accounts_removed">Play Áruház DRM hibával kapcsolatos információ</string>
-  <string name="startup_google_play_accounts_removed_message">Bizonyos körülmények között  a Play Áruház DRM okozhatja azt, hogy az eszköz újraindítását vagy a DAVdroid frissítését követően a DAVdroid fiókok eltűnnek.  Amennyiben (és csak amennyiben) érinti Önt ez a probléma, telepítse a \"DAVdroid JB Workaround\" alkalmazást Play Áruházból.</string>
+  <string name="startup_google_play_accounts_removed_message">Bizonyos körülmények között  a Play Áruház DRM okozhatja azt, hogy az eszköz újraindítását vagy a Kilanka frissítését követően a Kilanka fiókok eltűnnek.  Amennyiben (és csak amennyiben) érinti Önt ez a probléma, telepítse a \"Kilanka JB Workaround\" alkalmazást Play Áruházból.</string>
   <string name="startup_google_play_accounts_removed_more_info">További információk</string>
   <string name="startup_opentasks_not_installed">Az OpenTasks nincs telepítve</string>
-  <string name="startup_opentasks_not_installed_message">Az OpenTasks alkalmazás nincs telepítve, így a DAVdroid nem lesz képes szinkronizálni feladatlistákat.</string>
+  <string name="startup_opentasks_not_installed_message">Az OpenTasks alkalmazás nincs telepítve, így a Kilanka nem lesz képes szinkronizálni feladatlistákat.</string>
   <string name="startup_opentasks_reinstall_davdroid">Az OpenTasks telepítését követően újra kell telepíteni a DAVdroit alkalmazást és újra fel kell venni a fiókokat (Android hiba).</string>
   <string name="startup_opentasks_not_installed_install">Az OpenTasks telepítése</string>
   <!--AboutActivity-->
   <string name="about_license_terms">Licencfeltételek</string>
   <string name="about_license_info_no_warranty">Ehhez a program SEMMIFÉLE GARANCIA NEM JÁR.   Ez a program szabad szoftver, ami a bizonyos feltételek mellett szabadon terjeszthető.</string>
   <!--global settings-->
-  <string name="logging_davdroid_file_logging">DAVdroid fájlalapú naplózás</string>
+  <string name="logging_davdroid_file_logging">Kilanka fájlalapú naplózás</string>
   <string name="logging_to_external_storage">Naplózás külső tárhelyre: %s</string>
   <string name="logging_couldnt_create_file">Külső naplófájl létrehozása sikertelen: %s</string>
   <string name="logging_no_external_storage">A külső tárhely nem érhető el</string>
   <!--AccountsActivity-->
   <string name="navigation_drawer_open">Navigációs fiók megnyitása</string>
   <string name="navigation_drawer_close">Navigációs fiók lezárása</string>
-  <string name="navigation_drawer_subtitle">CalDAV/CardDAV szinkronizációs adapter</string>
+  <string name="navigation_drawer_subtitle">Kilanka szinkronizációs adapter</string>
   <string name="navigation_drawer_about">Névjegy / Licenc</string>
   <string name="navigation_drawer_settings">Beállítások</string>
   <string name="navigation_drawer_news_updates">Hírek és frissítések</string>
@@ -44,7 +44,7 @@
   <string name="navigation_drawer_faq">GYIK</string>
   <string name="navigation_drawer_forums">Segítség / Fórumok</string>
   <string name="navigation_drawer_donate">Támogatás</string>
-  <string name="account_list_empty">Üdvözöljük a DAVdroid felhasználók között!\n\nMost már felvehet CalDAV/CardDav fiókokat.</string>
+  <string name="account_list_empty">Üdvözöljük a Kilanka felhasználók között!\n\nMost már felvehet CalDAV/CardDav fiókokat.</string>
   <string name="accounts_global_sync_disabled">A rendszerszintű automatikus szinkronizálás ki van kapcsolva</string>
   <string name="accounts_global_sync_enable">Bekapcsolás</string>
   <!--DavService-->
@@ -95,15 +95,15 @@
   <string name="account_no_webcal_handler_found">Nem található Webcal-képes alkalmazás</string>
   <string name="account_install_icsdroid">ICSdroid telepítése</string>
   <!--PermissionsActivity-->
-  <string name="permissions_title">DAVdroid engedélyek </string>
+  <string name="permissions_title">Kilanka engedélyek </string>
   <string name="permissions_calendar">Naptárengedély</string>
-  <string name="permissions_calendar_details">A CalDAV naptárak és a helyi naptárak szinkronizálásához a DAVdroid naptárhozzáférést igényel.</string>
+  <string name="permissions_calendar_details">A CalDAV naptárak és a helyi naptárak szinkronizálásához a Kilanka naptárhozzáférést igényel.</string>
   <string name="permissions_calendar_request">Naptárhozzáférés igénylése</string>
   <string name="permissions_contacts">Névjegyengedélyek</string>
   <string name="permissions_contacts_details">A CardDAV címlisták és a helyi címlisták szinkronizálásához a névjegyhozzáférést igényel.</string>
   <string name="permissions_contacts_request">Névjegyengedélyek igénylése</string>
   <string name="permissions_opentasks">OpenTasks engedélyek</string>
-  <string name="permissions_opentasks_details">A CalDAV feladatlisták és a helyi feladatlisták szinkronizálásához a DAVdroid OpenTasks hozzáférést igényel.</string>
+  <string name="permissions_opentasks_details">A CalDAV feladatlisták és a helyi feladatlisták szinkronizálásához a Kilanka OpenTasks hozzáférést igényel.</string>
   <string name="permissions_opentasks_request">OpenTasks engedélyek igénylése</string>
   <!--AddAccountActivity-->
   <string name="login_title">Fiók hozzáadása</string>
@@ -179,8 +179,8 @@
   </plurals>
   <string name="settings_sync_time_range_past_message">Az ennyi napnál (lehet 0) régebbi események figyelmen kívül lesznek hagyva.  Hagyja üresen, ha minden múltbéli eseményt szinkronizálni akar.</string>
   <string name="settings_manage_calendar_colors">Naptárszínek kezelése</string>
-  <string name="settings_manage_calendar_colors_on">A naptárszíneket a DAVdroid kezeli</string>
-  <string name="settings_manage_calendar_colors_off">A naptárszíneket nem a DAVdroid kezeli</string>
+  <string name="settings_manage_calendar_colors_on">A naptárszíneket a Kilanka kezeli</string>
+  <string name="settings_manage_calendar_colors_off">A naptárszíneket nem a Kilanka kezeli</string>
   <string name="settings_event_colors">Eseményszínek támogatása</string>
   <string name="settings_event_colors_on">Eseményszínek szinkronlzálása</string>
   <string name="settings_event_colors_off">Az eseményszínek szinkronizálásának elhagyása</string>
@@ -213,7 +213,7 @@
   <string name="exception_show_details">Részletek megjelenítése</string>
   <!--sync adapters and DebugInfoActivity-->
   <string name="debug_info_title">Hibakeresési információ</string>
-  <string name="sync_error_permissions">DAVdroid engedélyek </string>
+  <string name="sync_error_permissions">Kilanka engedélyek </string>
   <string name="sync_error_permissions_text">További engedélyek szükségesek</string>
   <string name="sync_error_calendar">A naptár szinkronizálása nem sikerült (%s)</string>
   <string name="sync_error_contacts">A címjegyzék szinkronizálása nem sikerült (%s)</string>
@@ -237,6 +237,6 @@
   </string-array>
   <string name="sync_error_unauthorized">A felhasználónév vagy jelszó hibás</string>
   <!--cert4android-->
-  <string name="certificate_notification_connection_security">DAVdroid: kapcsolatbiztonság</string>
+  <string name="certificate_notification_connection_security">Kilanka: kapcsolatbiztonság</string>
   <string name="trust_certificate_unknown_certificate_found">Egy eddig ismeretlen tanúsítvány érkezett.  Megbízhatónak kívánja elfogadni?</string>
 </resources>

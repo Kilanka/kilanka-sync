@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:tools="http://schemas.android.com/tools">
   <!--common strings-->
-  <string name="app_name">DAVdroid</string>
-  <string name="account_title_address_book">DAVdroid 通讯录</string>
+  <string name="app_name">Kilanka-Sync</string>
+  <string name="account_title_address_book">Kilanka 通讯录</string>
   <string name="address_books_authority_title">通讯录</string>
   <string name="help">帮助</string>
   <string name="manage_accounts">管理账户</string>
@@ -11,32 +11,32 @@
   <string name="beta_feedback_url">https://forums.bitfire.at/category/9/beta-test-discussion?pk_campaign=davdroid-app</string>
   <!--startup dialogs-->
   <string name="startup_battery_optimization">电池优化</string>
-  <string name="startup_battery_optimization_message">系统可能会在几天后减少或停用 DAVdroid 同步。为了避免这一情况，请禁用对 DAVdroid 的电池优化。</string>
+  <string name="startup_battery_optimization_message">系统可能会在几天后减少或停用 Kilanka 同步。为了避免这一情况，请禁用对 Kilanka 的电池优化。</string>
   <string name="startup_battery_optimization_disable">禁用电池优化</string>
   <string name="startup_dont_show_again">不再显示</string>
   <string name="startup_donate">开源信息</string>
-  <string name="startup_donate_message">欢迎使用 DAVdroid，这是一款开源软件 (GPLv3)。开发 DAVdroid 的工作花费了数千小时，请您考虑捐助我们。</string>
+  <string name="startup_donate_message">欢迎使用 Kilanka，这是一款开源软件 (GPLv3)。开发 Kilanka 的工作花费了数千小时，请您考虑捐助我们。</string>
   <string name="startup_donate_now">显示捐助页面</string>
   <string name="startup_donate_later">稍后提示</string>
   <string name="startup_google_play_accounts_removed">Play 商店 DRM 问题提醒</string>
-  <string name="startup_google_play_accounts_removed_message">在某些情况下，Play 商店的 DRM 可能会导致所有 DAVdroid 账户在设备重启或升级 DAVdroid 后消失。如果你遇到了该问题，请从 Play 商店安装“DAVdroid JB Workaround”，否则请不要安装修复程序。</string>
+  <string name="startup_google_play_accounts_removed_message">在某些情况下，Play 商店的 DRM 可能会导致所有 Kilanka 账户在设备重启或升级 Kilanka 后消失。如果你遇到了该问题，请从 Play 商店安装“Kilanka JB Workaround”，否则请不要安装修复程序。</string>
   <string name="startup_google_play_accounts_removed_more_info">更多信息</string>
   <string name="startup_opentasks_not_installed">OpenTasks 未安装</string>
-  <string name="startup_opentasks_not_installed_message">未安装 OpenTasks 应用，故 DAVdroid 无法同步任务列表。</string>
-  <string name="startup_opentasks_reinstall_davdroid">安装 OpenTasks 后，由于 Android 的限制，请重新安装 DAVdroid 并重新创建账户。</string>
+  <string name="startup_opentasks_not_installed_message">未安装 OpenTasks 应用，故 Kilanka 无法同步任务列表。</string>
+  <string name="startup_opentasks_reinstall_davdroid">安装 OpenTasks 后，由于 Android 的限制，请重新安装 Kilanka 并重新创建账户。</string>
   <string name="startup_opentasks_not_installed_install">安装 OpenTasks</string>
   <!--AboutActivity-->
   <string name="about_license_terms">许可协议</string>
   <string name="about_license_info_no_warranty">本程序不附带任何担保。这是一款自由软件，你可以有条件地传播它。</string>
   <!--global settings-->
-  <string name="logging_davdroid_file_logging">DAVdroid 文件日志</string>
+  <string name="logging_davdroid_file_logging">Kilanka 文件日志</string>
   <string name="logging_to_external_storage">记录日志到外部存储 %s</string>
   <string name="logging_couldnt_create_file">无法创建外部日志文件 %s</string>
   <string name="logging_no_external_storage">找不到外部存储</string>
   <!--AccountsActivity-->
   <string name="navigation_drawer_open">打开导航抽屉</string>
   <string name="navigation_drawer_close">关闭导航抽屉</string>
-  <string name="navigation_drawer_subtitle">CalDAV/CardDAV 同步器</string>
+  <string name="navigation_drawer_subtitle">Kilanka 同步器</string>
   <string name="navigation_drawer_about">关于 / 许可</string>
   <string name="navigation_drawer_beta_feedback">测试版反馈</string>
   <string name="navigation_drawer_settings">设置</string>
@@ -46,7 +46,7 @@
   <string name="navigation_drawer_faq">常见问题</string>
   <string name="navigation_drawer_forums">帮助 / 论坛</string>
   <string name="navigation_drawer_donate">捐助</string>
-  <string name="account_list_empty">欢迎使用 DAVdroid！\n\n现在你可以增加 CalDAV/CardDAV 账户。</string>
+  <string name="account_list_empty">欢迎使用 Kilanka！\n\n现在你可以增加 CalDAV/CardDAV 账户。</string>
   <string name="accounts_global_sync_disabled">系统全局自动同步已禁用</string>
   <string name="accounts_global_sync_enable">启用</string>
   <!--DavService-->
@@ -102,15 +102,15 @@
   <string name="account_install_icsdroid">安装 ICSdroid</string>
   <string name="account_read_only_address_book_selected">这是只读通讯录，本地修改会被自动撤销！</string>
   <!--PermissionsActivity-->
-  <string name="permissions_title">DAVdroid 权限</string>
+  <string name="permissions_title">Kilanka 权限</string>
   <string name="permissions_calendar">日历权限</string>
-  <string name="permissions_calendar_details">要把 CalDAV 事件与本地日历同步，DAVdroid 需要日历权限。</string>
+  <string name="permissions_calendar_details">要把 CalDAV 事件与本地日历同步，Kilanka 需要日历权限。</string>
   <string name="permissions_calendar_request">请求日历权限</string>
   <string name="permissions_contacts">通讯录权限</string>
-  <string name="permissions_contacts_details">要把 CardDAV 通讯录与本地通讯录同步，DAVdroid 需要通讯录权限。</string>
+  <string name="permissions_contacts_details">要把 CardDAV 通讯录与本地通讯录同步，Kilanka 需要通讯录权限。</string>
   <string name="permissions_contacts_request">请求通讯录权限</string>
   <string name="permissions_opentasks">OpenTasks 权限</string>
-  <string name="permissions_opentasks_details">要把 CalDAV 任务与本地任务列表同步，DAVdroid 需要访问 OpenTasks。</string>
+  <string name="permissions_opentasks_details">要把 CalDAV 任务与本地任务列表同步，Kilanka 需要访问 OpenTasks。</string>
   <string name="permissions_opentasks_request">请求 OpenTasks 权限</string>
   <!--AddAccountActivity-->
   <string name="login_title">增加账户</string>
@@ -187,8 +187,8 @@
   </plurals>
   <string name="settings_sync_time_range_past_message">超过这个数字的天数的旧日程将会被忽略（可以为 0）。留空则同步所有日程。</string>
   <string name="settings_manage_calendar_colors">管理日历颜色</string>
-  <string name="settings_manage_calendar_colors_on">日历颜色由 DAVdroid 设置</string>
-  <string name="settings_manage_calendar_colors_off">日历颜色不由 DAVdroid 设置</string>
+  <string name="settings_manage_calendar_colors_on">日历颜色由 Kilanka 设置</string>
+  <string name="settings_manage_calendar_colors_off">日历颜色不由 Kilanka 设置</string>
   <string name="settings_event_colors">事件日历颜色支持</string>
   <string name="settings_event_colors_on">同步日历事件颜色</string>
   <string name="settings_event_colors_off">不同步日历事件颜色</string>
@@ -226,7 +226,7 @@
   <plurals name="sync_contacts_local_contact_changes_discarded">
     <item quantity="other">%d 本地联系人修改被撤销</item>
   </plurals>
-  <string name="sync_error_permissions">DAVdroid 权限</string>
+  <string name="sync_error_permissions">Kilanka 权限</string>
   <string name="sync_error_permissions_text">需要额外权限</string>
   <string name="sync_error_calendar">日历同步失败（%s）</string>
   <string name="sync_error_contacts">通讯录同步失败（%s）</string>
@@ -250,6 +250,6 @@
   </string-array>
   <string name="sync_error_unauthorized">用户名或密码错误</string>
   <!--cert4android-->
-  <string name="certificate_notification_connection_security">DAVdroid: 连接安全性</string>
-  <string name="trust_certificate_unknown_certificate_found">DAVdroid 遇到了未知证书。你是否要信任该证书？</string>
+  <string name="certificate_notification_connection_security">Kilanka: 连接安全性</string>
+  <string name="trust_certificate_unknown_certificate_found">Kilanka 遇到了未知证书。你是否要信任该证书？</string>
 </resources>

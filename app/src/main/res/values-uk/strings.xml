@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:tools="http://schemas.android.com/tools">
   <!--common strings-->
-  <string name="app_name">DAVdroid</string>
-  <string name="account_title_address_book">Адресна книга DAVdroid</string>
+  <string name="app_name">Kilanka-Sync</string>
+  <string name="account_title_address_book">Адресна книга Kilanka</string>
   <string name="address_books_authority_title">Адресні книги</string>
   <string name="help">Допомога</string>
   <string name="manage_accounts">Керування обліковими записами</string>
@@ -10,32 +10,32 @@
   <string name="send">Відправити</string>
   <!--startup dialogs-->
   <string name="startup_battery_optimization">Оптимізація енергоспоживання</string>
-  <string name="startup_battery_optimization_message">Android може вимкнути, чи призупинити синхронізацію DAVdroid через деякий час. Аби запобігти цьому, вимкніть оптимізацію енергоспоживання для додатку.</string>
-  <string name="startup_battery_optimization_disable">Вимкнути для DAVdroid</string>
+  <string name="startup_battery_optimization_message">Android може вимкнути, чи призупинити синхронізацію Kilanka через деякий час. Аби запобігти цьому, вимкніть оптимізацію енергоспоживання для додатку.</string>
+  <string name="startup_battery_optimization_disable">Вимкнути для Kilanka</string>
   <string name="startup_dont_show_again">Не показувати знову</string>
   <string name="startup_donate">Інформація Open-Source</string>
-  <string name="startup_donate_message">Ми раді, що Ви використовуєте DAVdroid, який є програмним засобом з відкритим джерельним кодом (GPLv3). Розробка DAVdroid є досить складним завданням і потребує від нас тисячі годин роботи. Будь ласка, розгляньте можливість підтримати проект.</string>
+  <string name="startup_donate_message">Ми раді, що Ви використовуєте Kilanka, який є програмним засобом з відкритим джерельним кодом (GPLv3). Розробка Kilanka є досить складним завданням і потребує від нас тисячі годин роботи. Будь ласка, розгляньте можливість підтримати проект.</string>
   <string name="startup_donate_now">Показати сторінку пожертви</string>
   <string name="startup_donate_later">Можливо пізніше</string>
   <string name="startup_google_play_accounts_removed">Інформація про ваду в Play Store DRM</string>
-  <string name="startup_google_play_accounts_removed_message">При деяких обставинах Play Store DRM може стати причиною втрати всіх облікових записів DAVdroid після перезавантаження пристрою чи оновлення DAVdroid. Якщо ви зіткнулися із цим (і лише у цьому випадку), будь ласка, встановіть \"DAVdroid JB Workaround\" з Play Store.</string>
+  <string name="startup_google_play_accounts_removed_message">При деяких обставинах Play Store DRM може стати причиною втрати всіх облікових записів Kilanka після перезавантаження пристрою чи оновлення Kilanka. Якщо ви зіткнулися із цим (і лише у цьому випадку), будь ласка, встановіть \"Kilanka JB Workaround\" з Play Store.</string>
   <string name="startup_google_play_accounts_removed_more_info">Детальніше</string>
   <string name="startup_opentasks_not_installed">OpenTasks не встановлено</string>
-  <string name="startup_opentasks_not_installed_message">Додаток OpenTasks не встановлено, ото ж DAVdroid не зможе синхронізувати завдання.</string>
-  <string name="startup_opentasks_reinstall_davdroid">Після встановлення OpenTasks, необхідно перевстановити DAVdroid та додати облікові записи знову (Вада системи Android).</string>
+  <string name="startup_opentasks_not_installed_message">Додаток OpenTasks не встановлено, ото ж Kilanka не зможе синхронізувати завдання.</string>
+  <string name="startup_opentasks_reinstall_davdroid">Після встановлення OpenTasks, необхідно перевстановити Kilanka та додати облікові записи знову (Вада системи Android).</string>
   <string name="startup_opentasks_not_installed_install">Встановити OpenTasks</string>
   <!--AboutActivity-->
   <string name="about_license_terms">Умови ліцензії</string>
   <string name="about_license_info_no_warranty">Цей програмний засіб постачається АБСОЛЮТНО БЕЗ БУДЬ-ЯКИХ ГАРАНТІЙ. Це вільне програмне забезпечення, і ви можете поширювати її, за деякими умовами.</string>
   <!--global settings-->
-  <string name="logging_davdroid_file_logging">Файл звітування DAVdroid</string>
+  <string name="logging_davdroid_file_logging">Файл звітування Kilanka</string>
   <string name="logging_to_external_storage">Звітування до зовнішнього сховища: %s</string>
   <string name="logging_couldnt_create_file">Не вдалося створити файл зовнішнього звіту: %s</string>
   <string name="logging_no_external_storage">Не знайдено зовнішнього сховища</string>
   <!--AccountsActivity-->
   <string name="navigation_drawer_open">Відкрити панель навігації</string>
   <string name="navigation_drawer_close">Закрити панель навігації</string>
-  <string name="navigation_drawer_subtitle">Адаптер синхронізації CalDAV/CardDAV</string>
+  <string name="navigation_drawer_subtitle">Адаптер синхронізації Kilanka</string>
   <string name="navigation_drawer_about">Про / Ліцензія</string>
   <string name="navigation_drawer_settings">Налаштування</string>
   <string name="navigation_drawer_news_updates">Новини та оновлення</string>
@@ -43,7 +43,7 @@
   <string name="navigation_drawer_website">Веб сайт</string>
   <string name="navigation_drawer_faq">Питання/Відповіді</string>
   <string name="navigation_drawer_donate">Підтримка</string>
-  <string name="account_list_empty">Вітаємо у DAVdroid!\n\nТепер можете додавати облікові записи CalDAV/CardDAV.</string>
+  <string name="account_list_empty">Вітаємо у Kilanka!\n\nТепер можете додавати облікові записи CalDAV/CardDAV.</string>
   <string name="accounts_global_sync_disabled">Автоматичну синхронізацію вимкнено зі сторони системи</string>
   <string name="accounts_global_sync_enable">Увімкнути</string>
   <!--DavService-->
@@ -89,7 +89,7 @@
   <string name="account_refresh_calendar_list">Оновити перелік каленарів</string>
   <string name="account_create_new_calendar">Створити новий календар</string>
   <!--PermissionsActivity-->
-  <string name="permissions_title">Дозволи DAVdroid</string>
+  <string name="permissions_title">Дозволи Kilanka</string>
   <string name="permissions_calendar">Дозволи календаря</string>
   <string name="permissions_calendar_details">Для синхронізації CalDAV подій з локальним календарем необхідний дозвіл до Ваших календарів.</string>
   <string name="permissions_calendar_request">Запит дозволів календаря</string>
@@ -157,8 +157,8 @@
   </plurals>
   <string name="settings_sync_time_range_past_message">Події старші вказаного часу будуть проігноровані (може бути 0). Залиште порожнім, аби синхронізувати всі події.</string>
   <string name="settings_manage_calendar_colors">Керування кольорами календаря</string>
-  <string name="settings_manage_calendar_colors_on">Кольори календаря керуються DAVdroid</string>
-  <string name="settings_manage_calendar_colors_off">Кольори календаря не керуються DAVdroid</string>
+  <string name="settings_manage_calendar_colors_on">Кольори календаря керуються Kilanka</string>
+  <string name="settings_manage_calendar_colors_off">Кольори календаря не керуються Kilanka</string>
   <!--collection management-->
   <string name="create_addressbook">Створити адресну книгу</string>
   <string name="create_addressbook_display_name_hint">Моя адресна книга</string>
@@ -187,7 +187,7 @@
   <string name="exception_show_details">Показати подробиці</string>
   <!--sync adapters and DebugInfoActivity-->
   <string name="debug_info_title">Інформація зневадження</string>
-  <string name="sync_error_permissions">Дозволи DAVdroid</string>
+  <string name="sync_error_permissions">Дозволи Kilanka</string>
   <string name="sync_error_permissions_text">Потребує додаткові дозволи</string>
   <string name="sync_error_calendar">Помилка синхронізації календаря (%s)</string>
   <string name="sync_error_contacts">Помилка синхронізації адресної книги (%s)</string>
@@ -211,6 +211,6 @@
   </string-array>
   <string name="sync_error_unauthorized">Невірне ім\'я користувача чи пароль</string>
   <!--cert4android-->
-  <string name="certificate_notification_connection_security">DAVdroid: Безпека з\'єднання</string>
-  <string name="trust_certificate_unknown_certificate_found">DAVdroid зіткнувся з невідомим сертифікатом. Чи довіряти йому?</string>
+  <string name="certificate_notification_connection_security">Kilanka: Безпека з\'єднання</string>
+  <string name="trust_certificate_unknown_certificate_found">Kilanka зіткнувся з невідомим сертифікатом. Чи довіряти йому?</string>
 </resources>
