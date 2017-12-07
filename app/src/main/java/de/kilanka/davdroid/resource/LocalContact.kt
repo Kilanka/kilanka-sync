@@ -28,7 +28,7 @@ class LocalContact: AndroidContact, LocalResource {
     companion object {
 
         init {
-            Contact.productID = "+//IDN bitfire.at//DAVdroid/" + BuildConfig.VERSION_NAME + " ez-vcard/" + Ezvcard.VERSION
+            Contact.productID = "+//IDN kilanka.de//DAVdroid/" + BuildConfig.VERSION_NAME + " ez-vcard/" + Ezvcard.VERSION
         }
 
         val COLUMN_HASHCODE = ContactsContract.RawContacts.SYNC3

@@ -22,7 +22,7 @@ class LocalEvent: AndroidEvent, LocalResource {
 
     companion object {
         init {
-            iCalendar.prodId = ProdId("+//IDN bitfire.at//DAVdroid/" + BuildConfig.VERSION_NAME + " ical4j/2.x")
+            iCalendar.prodId = ProdId("+//IDN kilanka.de//DAVdroid/" + BuildConfig.VERSION_NAME + " ical4j/2.x")
         }
 
         val COLUMN_ETAG = CalendarContract.Events.SYNC_DATA1
